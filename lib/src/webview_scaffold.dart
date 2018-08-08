@@ -43,10 +43,10 @@ class WebviewScaffold extends StatefulWidget {
       : super(key: key);
 
   @override
-  _WebviewScaffoldState createState() => new _WebviewScaffoldState();
+  WebviewScaffoldState createState() => new WebviewScaffoldState();
 }
 
-class _WebviewScaffoldState extends State<WebviewScaffold> {
+class WebviewScaffoldState extends State<WebviewScaffold> {
   final webviewReference = new FlutterWebviewPlugin();
   Rect _rect;
   Timer _resizeTimer;
